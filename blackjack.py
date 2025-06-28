@@ -10,6 +10,7 @@ import random
     The winner is determined based on the points of each player.
 '''
 
+
 class Card(object):
     def __init__(self, rank, suite):
         self.rank = rank
