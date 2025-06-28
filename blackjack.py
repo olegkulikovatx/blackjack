@@ -1,5 +1,15 @@
 import random
 
+''' Blackjack game implementation in Python
+    This is a simple text-based version of the game where a human player plays against a robot.
+    The game follows the basic rules of Blackjack, where the goal is to get as close to 21 points without going over.
+    The player can choose to take another card or stop, and the robot makes decisions based on
+    a random strategy.
+    The game ends when both players decide to stop or one of them goes over 21 points
+    (busts).
+    The winner is determined based on the points of each player.
+'''
+
 class Card(object):
     def __init__(self, rank, suite):
         self.rank = rank
